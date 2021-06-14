@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>searchBloodType</class>
+ <widget class="QDialog" name="searchBloodType">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>408</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#searchBloodType{
+
+background-color: rgb(224, 241, 255);
+}</string>
+  </property>
+  <widget class="QPushButton" name="searchButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>450</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#searchButton{
+color:white;
+background-color:#006ba1;
+border-radius: 10px;
+margin-bottom:5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>251</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#plainTextEdit{
+
+border: 1px solid; border-radius:10px; background-color: palette(base);
+
+}</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>410</y>
+     <width>73</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>A+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>A-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>O+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>O-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AB+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AB-</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

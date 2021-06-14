@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>showrecipientrequests</class>
+ <widget class="QDialog" name="showrecipientrequests">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1160</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPlainTextEdit" name="NAME">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>200</y>
+     <width>210</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#NAME{
+background-color:rgb(255, 255, 255);
+colorr:rgb(220, 20, 60);
+border-radius: 10px;
+margin-bottom:3px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>131</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#save{
+color:rgb(255, 255, 255);
+background-color: rgb(168, 14, 0);;
+border-radius: 10px;
+margin-bottom:3px;
+}
+
+#save:hover{
+background-color: rgb(235, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Save and Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>50</y>
+     <width>210</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label{
+color:white;
+background-color:rgb(168, 14, 0);;
+border-radius: 10px;
+margin-bottom:5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>ID</string>
+   </property>
+   <property name="indent">
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>390</y>
+     <width>800</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_4{
+color:white;
+background-color:rgb(168, 14, 0);
+border-radius: 10px;
+margin-bottom:5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Hospital Name</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="BloodType">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>330</y>
+     <width>210</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#BloodType{
+background-color:rgb(255, 255, 255);
+colorr:rgb(220, 20, 60);
+border-radius: 10px;
+margin-bottom:3px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="AGE">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>480</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#AGE{
+background-color:rgb(255, 255, 255);
+colorr:rgb(220, 20, 60);
+border-radius: 5px;
+margin-bottom:3px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>480</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_5{
+color:white;
+background-color:rgb(168, 14, 0);;
+border-radius: 10px;
+margin-bottom:5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>AGE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SHOW">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>590</y>
+     <width>300</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#SHOW{
+background-color:rgb(220, 20, 60);
+color:rgb(255, 255, 255);
+border-radius: 10px;
+margin-bottom:3px;
+}</string>
+   </property>
+   <property name="text">
+    <string>SHOW</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ACCEPT">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>590</y>
+     <width>300</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#ACCEPT{
+	color:rgb(255, 255, 255);
+background-color:rgb(40, 120, 0);
+border-radius: 10px;
+margin-bottom:3px;
+}
+
+#ACCEPT:hover{
+background-color: rgb(19, 207, 35);
+}</string>
+   </property>
+   <property name="text">
+    <string>ACCEPT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>270</y>
+     <width>600</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_3{
+color:white;
+background-color:rgb(168, 14, 0);;
+border-radius: 10px;
+margin-bottom:5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Blood Type</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="REJECT">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>590</y>
+     <width>300</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#REJECT{
+color:rgb(255, 255, 255);
+background-color:rgb(170, 0, 0);
+border-radius: 10px;
+margin-bottom:3px;
+}
+
+
+#REJECT:hover{
+background-color: rgb(235, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>REJECT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>160</y>
+     <width>400</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_2{
+color:white;
+background-color:rgb(168, 14, 0);;
+border-radius: 10px;
+margin-bottom:5px;
+}</string>
+   </property>
+   <property name="text">
+    <string>NAME</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="ID">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>90</y>
+     <width>210</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#ID{
+background-color:rgb(255, 255, 255);
+color:rgb(220, 20, 60);
+border-radius: 10px;
+margin-bottom:3px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="HospitalName">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>450</y>
+     <width>210</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#HospitalName{
+background-color:rgb(255, 255, 255);
+colorr:rgb(220, 20, 60);
+border-radius: 10px;
+margin-bottom:3px;
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

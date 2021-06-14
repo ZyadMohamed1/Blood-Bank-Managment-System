@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpdateForm</class>
+ <widget class="QDialog" name="UpdateForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>464</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#UpdateForm{
+background-color: white;
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>331</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{
+	width: 520px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0 10px 9.9px 0.1px rgb(0 0 0 / 5%);
+    border-radius: 30px;
+	background-color: rgb(84, 84, 84);
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="update">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>330</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#update{
+background-color: white;
+color:black;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: beige;
+    font: bold 14px;
+
+    padding: 6px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="oldData">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>160</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#oldData{
+border-width: 2px;
+    border-radius: 10px;
+    border-color: beige;
+    padding: 6px;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>old data</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="newData">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>240</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#newData{
+
+border-width: 2px;
+    border-radius: 10px;
+    border-color: beige;
+    padding: 6px;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>new data</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mail</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Age</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gender</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hospital</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Doctor Name</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Last Donation Date</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

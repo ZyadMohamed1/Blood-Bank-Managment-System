@@ -29,6 +29,8 @@
 
 ![Donor](/images/DonorMainWindow.png)
 
+![Animation](/images/bloodanimation.png)
+
 ### Admin Page
 
 ![Admin](/images/AdminPage.png)

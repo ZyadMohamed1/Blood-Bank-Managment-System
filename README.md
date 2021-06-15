@@ -29,7 +29,7 @@
 
 ![Donor](/images/DonorMainWindow.png)
 
-![Animation](/images/bloodanimation.png)
+![Animation](/images/bloodanimation.gif)
 
 ### Admin Page
 
